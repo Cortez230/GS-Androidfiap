@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#EEEEEE"
+    android:layout_marginBottom="8dp">
+
+    <TextView android:id="@+id/tvLocal" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/tvTipo" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/tvGrau" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/tvData" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/tvNumero" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btnExcluir" android:text="Excluir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="end"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radar de Eventos Extremos"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <EditText android:id="@+id/etLocal" android:hint="Nome do local" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etTipoEvento" android:hint="Tipo do evento extremo" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etGrauImpacto" android:hint="Grau de impacto" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etData" android:hint="Data do evento" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etNumero" android:hint="Número de afetados" android:inputType="number" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/btnIncluir" android:text="Incluir" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <Button android:id="@+id/btnIdentificacao" android:text="Identificação" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
